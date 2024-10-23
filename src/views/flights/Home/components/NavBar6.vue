@@ -42,7 +42,7 @@
             <div class="d-flex align-items-center ms-4 phone-color d-none d-xl-flex">
               <font-awesome-icon :icon="faPhone" class="me-2 fs-4" />
               <div>
-                <span class="fs-4 fw-bold">020 3890 3669</span>
+                <a href="tel:02038903669" class="fw-bold fs-4">020 3890 3669</a>
                 <br />
                 <small>Daily Open From 08:00 - 23:59</small>
               </div>

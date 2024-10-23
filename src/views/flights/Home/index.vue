@@ -28,7 +28,7 @@
 
     <ActionBox />
 
-  <FaqContactSection />
+  <FaqSection />
   </main>
 
   <Footer4 />
@@ -44,7 +44,7 @@ import Hero from '@/views/flights/Home/components/Hero.vue'
 import PopularDestinations from '@/views/flights/Home/components/PopularDestinations.vue'
 import DestinationSteps from '@/views/flights/Home/components/DestinationSteps.vue'
 import ActionBox from '@/views/flights/Home/components/ActionBox.vue'
-// import FaqContactSection from '@/views/flights/Home/components/FaqSection.vue'
+import FaqSection from '@/views/flights/Home/components/FaqSection.vue'
 import Footer4 from '@/views/flights/Home/components/Footer4.vue'
 import BackToTop from '@/components/BackToTop.vue'
 // import { ref } from 'vue'
