@@ -8,6 +8,9 @@ import 'quill/dist/quill.bubble.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import 'bootstrap/scss/bootstrap.scss'
 import '@/assets/scss/style.scss'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -15,6 +18,7 @@ import { createBootstrap } from 'bootstrap-vue-next'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
 import { FcGoogle } from 'oh-vue-icons/icons'
+import { BIconTelephoneFill, BIconEnvelopeFill, BIconInboxFill } from 'bootstrap-icons-vue';
 
 import App from './App.vue'
 import router from './router'
