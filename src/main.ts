@@ -8,6 +8,7 @@ import 'quill/dist/quill.bubble.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import 'bootstrap/scss/bootstrap.scss'
 import '@/assets/scss/style.scss'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

@@ -13,7 +13,9 @@
     </p>
   </b-alert> -->
 
-  <NavBar5 />
+  <!-- <NavBar5 /> -->
+ <NavBar6 />
+
 
   <main>
     <Hero />
@@ -26,7 +28,7 @@
 
     <ActionBox />
 
-    <FaqSection />
+  <FaqSection />
   </main>
 
   <Footer4 />
@@ -36,6 +38,7 @@
 
 <script setup lang="ts">
 import NavBar5 from '@/views/flights/Home/components/NavBar5.vue'
+import NavBar6 from '@/views/flights/Home/components/NavBar6.vue'
 import Hero from '@/views/flights/Home/components/Hero.vue'
 // import SpecialOffers from '@/views/flights/Home/components/SpecialOffers.vue'
 import PopularDestinations from '@/views/flights/Home/components/PopularDestinations.vue'
