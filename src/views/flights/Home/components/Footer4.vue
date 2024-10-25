@@ -3,20 +3,18 @@
     <b-container>
       <b-row class="g-4">
         <b-col lg="3">
-          <!-- <router-link :to="{ name: '' }">
-            <img class="h-40px" :src="logoLight" alt="logo" />
-          </router-link> -->
-          <p class="my-3 text-body-secondary">
+            <!-- <img class="h-40px" :src="logoLight" alt="logo" /> -->
+          <p class="my-3 text-white">
             Departure defective arranging rapturous did believe him all had supported.
           </p>
           <p class="mb-2">
-            <a href="#" class="text-body-secondary text-primary-hover">
+            <a href="#" class="text-white text-primary-hover">
               <BIconTelephone class="me-1 mb-1" />
               +1234 568 963</a
             >
           </p>
           <p class="mb-0">
-            <a href="#" class="text-body-secondary text-primary-hover">
+            <a href="#" class="text-white text-primary-hover">
               <BIconEnvelope class="me-1 mb-1" />
               example@gmail.com</a
             >
@@ -30,7 +28,7 @@
               <ul class="nav flex-column text-primary-hover">
                 <li v-for="(child, idx) in item.items" :key="idx" class="nav-item">
                   <router-link
-                    class="nav-link text-body-secondary"
+                    class="nav-link text-white"
                     :to="{ name: child.link?.name, params: child.link?.params }"
                   >
                     <font-awesome-icon v-if="child.icon" :icon="child.icon" class="me-1" />
@@ -49,7 +47,7 @@
           <li v-for="(item, idx) in topLinks" :key="idx" class="list-inline-item">
             <router-link
               :to="{ name: item.link?.name, params: item.link?.params }"
-              class="text-body-secondary"
+              class="text-white"
             >
               {{ item.name }}
             </router-link>
@@ -81,22 +79,22 @@
           <ul class="list-inline mb-0 mt-3 hstack gap-1 justify-content-end">
             <li class="list-inline-item">
               <a class="btn btn-sm px-2 bg-facebook mb-0" href="#">
-                <font-awesome-icon :icon="faFacebook" class="fab fa-fw" />
+                <font-awesome-icon :icon="faFacebook" class="fab fa-fw" style="color: white;"/>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-sm shadow px-2 bg-instagram mb-0" href="#">
-                <font-awesome-icon :icon="faInstagram" class="fab fa-fw" />
+                <font-awesome-icon :icon="faInstagram" class="fab fa-fw" style="color: white;"/>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-sm shadow px-2 bg-twitter mb-0" href="#">
-                <font-awesome-icon :icon="faTwitter" class="fab fa-fw" />
+                <font-awesome-icon :icon="faTwitter" class="fab fa-fw" style="color: white;"/>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-sm shadow px-2 bg-linkedin mb-0" href="#">
-                <font-awesome-icon :icon="faLinkedinIn" class="fab fa-fw" />
+                <font-awesome-icon :icon="faLinkedinIn" class="fab fa-fw" style="color: white;"                />
               </a>
             </li>
           </ul>
@@ -110,21 +108,21 @@
           <div
             class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start"
           >
-            <div class="text-body-secondary text-primary-hover">
+            <div class="text-white text-primary-hover">
               Copyrights ©{{ currentYear }} Booking. Build by
-              <a :href="developedByLink" class="text-body-secondary">{{ developedBy }}</a
+              <a :href="developedByLink" class="text-white">{{ developedBy }}</a
               >.
             </div>
             <div class="nav mt-2 mt-lg-0">
               <ul class="list-inline text-primary-hover mx-auto mb-0">
                 <li class="list-inline-item me-0">
-                  <a class="nav-link text-body-secondary py-1" href="#">Privacy policy</a>
+                  <a class="nav-link text-white py-1" href="#">Privacy policy</a>
                 </li>
                 <li class="list-inline-item me-0">
-                  <a class="nav-link text-body-secondary py-1" href="#">Terms and conditions</a>
+                  <a class="nav-link text-white py-1" href="#">Terms and conditions</a>
                 </li>
                 <li class="list-inline-item me-0">
-                  <a class="nav-link text-body-secondary py-1 pe-0" href="#">Refund policy</a>
+                  <a class="nav-link text-white text-white py-1 pe-0" href="#">Refund policy</a>
                 </li>
               </ul>
             </div>
@@ -136,7 +134,7 @@
 </template>
 
 <script setup lang="ts">
-import logoLight from '@/assets/images/logo-light.svg'
+// import logoLight from '@/assets/images/travelInfare.png'
 import paypal from '@/assets/images/element/paypal.svg'
 import visa from '@/assets/images/element/visa.svg'
 import mastercard from '@/assets/images/element/mastercard.svg'
